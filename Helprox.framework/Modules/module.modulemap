@@ -1,0 +1,11 @@
+framework module Helprox {
+  umbrella header "Helprox.h"
+
+  export *
+  module * { export * }
+}
+
+module Helprox.Swift {
+    header "Helprox-Swift.h"
+    requires objc
+}
